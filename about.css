@@ -1,0 +1,117 @@
+body
+{
+    font-family: open Sans;
+    background-color: white;
+}
+.nav-bar
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: boder-bottom 1s;
+    height: 1.5em;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position:relative;
+    padding-left: 62%;;
+}
+.nav
+{
+    text-align: center;
+    padding-left: 1.5em;;
+}
+.nav-bar a
+{
+    color:grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-bar a:hover
+{
+    color: black;
+    border-bottom:1px solid black;
+}
+.point
+{
+    font-size: 2.5em;
+    position: absolute;
+    left:1em;
+    bottom:9em;
+    background-image: url(images/screen.jpg);
+    background-size: cover;
+    color: cornsilk;
+}
+#line1
+{
+    width: 40%;
+    height:2px;
+    position: relative;
+    top:8em;
+    padding-left: 3em;
+
+}
+.point2
+{
+    font-size: 2.5em;
+    position: absolute;
+    left:1em;
+    bottom:4em;
+    background-image: url(images/screen.jpg);
+    background-size: cover;
+    color: cornsilk;
+    text-align: right;
+}
+
+#info
+{
+    width:50%;
+    position:absolute;
+    font-size: 2.3em;
+    text-align: right;
+    bottom:13em;
+    left:-2em;
+    color: black;
+
+}
+.img1
+{
+    top:4.5em;
+    position: absolute;
+    height:auto;
+    left:42em;
+
+}
+.con
+{
+    position: absolute;
+    bottom:8em;
+    left:10em;
+
+}
+.footer
+{
+    position: relative;
+    background-color: #1c1f1d;
+    color: burlywood;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    top:31em;
+}
+#in
+{
+    color: burlywood;
+    position: relative;
+    left: 55%;
+}
+.facebook
+{
+    width:20px;
+    height:auto;
+}
+#contact a
+{
+    color:burlywood;
+
+}

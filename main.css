@@ -1,0 +1,154 @@
+body
+{
+    font-family: open Sans;
+    background-color: white;
+}
+.nav-bar
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: boder-bottom 1s;
+    height: 1.5em;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position:relative;
+    padding-left: 62%;;
+}
+.nav
+{
+    text-align: center;
+    padding-left: 1.5em;;
+}
+.nav-bar a
+{
+    color:grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-bar a:hover
+{
+    color: black;
+    border-bottom:1px solid black;
+}
+#box
+ {
+    height: 9em;;
+    width: 9em;;
+    bottom:10px;
+    background-color: yellow;
+    float:left;
+    position: static;
+
+ }
+ #logo
+{
+    left:-1.85em;
+    color: black;
+    font-size: 5em;
+    padding:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    float:left;
+}
+#head
+{
+    font-size:3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    left:-3.3em;
+    bottom:-1.3em;
+}
+#p1
+{
+    font-size:1.5em;
+    text-align: justify;
+    position: absolute;
+    top:9em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+#line1
+{
+    width: 95%;
+    height:2px;
+    padding-left: 2em;
+    position: relative;
+    top:8em;
+
+}
+
+.img1
+{
+    position:relative;
+    bottom:-12em;
+    padding-left: 33em;;
+}
+.p2
+{
+    font-size:1.5em;
+    text-align: justify; 
+    position: relative;
+    float: left;
+    flex-basis: 33%;
+    width: 34%;
+    bottom:5em;
+    padding-left: 1.4em;
+}
+#line2
+{
+    width: 95%;
+    height:2px;
+    padding-left: 2em;
+    position: relative;
+    bottom:2em;
+
+}
+.p3
+{
+    padding-left: 35em;
+    font-size:1.5em;
+    position: absolute;
+    top:40em;
+}
+.image-container1
+{
+    position: relative;
+}
+.image-container2
+{
+    position: relative;
+}
+.slider-image
+{
+    width: 25%;
+    height: auto;
+}
+.footer
+{
+    position: relative;
+    background-color: #1c1f1d;
+    color: burlywood;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    top:5em;
+}
+#in
+{
+    color: burlywood;
+    position: relative;
+    left: 55%;
+}
+.facebook
+{
+    width:20px;
+    height:auto;
+}
+#contact a
+{
+    color:burlywood;
+
+}

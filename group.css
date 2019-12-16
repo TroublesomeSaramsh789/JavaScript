@@ -1,0 +1,108 @@
+body
+{
+    font-family: open Sans;
+    
+}
+.nav-bar
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: boder-bottom 1s;
+    height: 1.5em;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position:relative;
+    padding-left: 62%;;
+}
+.nav
+{
+    text-align: center;
+    padding-left: 1.5em;;
+}
+.nav-bar a
+{
+    color:grey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-bar a:hover
+{
+    color: black;
+    border-bottom:1px solid black;
+}
+.background
+{
+    width: 100%;
+    opacity: 0.9;
+}
+.form
+{
+    color: black;
+    position: absolute;
+    font-size: 2em;
+    bottom:1.5em;
+    left:24em;
+    padding: 9px 0;
+    outline-style: solid;
+    padding-left: 1em;
+    padding-right: 0.7em;
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
+    
+}
+#first, #phone, #email, #date
+{
+    width:30em;
+    height:3em;
+}
+select
+{
+    width:30em;
+    height:3.4em;
+}
+button
+{
+    border: 1px solid black;
+    position: relative;
+    padding: 10px 40px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .2s ease-in-out;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    background-color:black;
+    color: white;
+    top:0.4em;
+}
+#id
+{
+    font-size: large;
+}
+input
+{
+    margin-top: 1.4em;
+
+}
+input::-webkit-input-placeholder {
+    font-size: 25px;
+    line-height: 4;
+}
+.Header
+{
+    position: absolute;
+    font-size: 3em;
+    font-weight: bolder;
+    left:16.1em;
+    bottom: 9em;
+}
+#line1
+{
+    width: 55.7%;
+    height:2px;
+    padding-left: 37.4em;
+    position: relative;
+    top:0.5em;
+
+}
